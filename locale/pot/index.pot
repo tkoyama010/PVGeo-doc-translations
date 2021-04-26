@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018-2020, Bane Sullivan, http:://banesullivan.com
+# This file is distributed under the same license as the PVGeo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PVGeo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-26 19:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../PVGeo/docs/source/index.rst:153
+msgid "Examples"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:163
+msgid "API Index:"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:172
+msgid "Development Guide"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:3
+msgid "Welcome to PVGeo's code docs!"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:43
+msgid "The ``PVGeo`` Python package contains VTK powered tools for data visualization in geophysics which are wrapped for direct use within the application `ParaView by Kitware`_ or directly in a Python >=3.6 environment when paired with the `PyVista Python package`_. These tools are tailored to data visualization in the geosciences with a heavy focus on structured data sets like 2D or 3D time-varying grids."
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:50
+msgid "This website hosts the documentation for the ``PVGeo`` Python package found on `GitHub`_ and `PyPI`_."
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:53
+msgid "For a quick overview of how ``PVGeo`` can be used in a Python environment or directly within ParaView, please checkout the code snippets and videos on the :ref:`About Examples Page`."
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:65
+msgid "Connections"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:67
+msgid "This package provides many VTK-like algorithms designed for geoscientific data formats and types to perform data integration and analysis. To ensure our users have powerful and easy to use tools that can visualize the results of PVGeo algorithms, we are actively involved in the development of PyVista_: a toolset for easy access to VTK data objects and 3D visualization in Python. To learn more about pairing PVGeo with `PyVista`, please check out the `example Jupyter notebooks`_."
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:82
+msgid "Requesting Features, Reporting Issues, and Contributing"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:84
+msgid "Please feel free to post features you would like to see from this package on the `issues page`_ as a feature request. If you stumble across any bugs or crashes while using code distributed here, please report it in the issues page so we can promptly address it. For other questions please join the `PVGeo community on Slack`_."
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:94
+msgid "About the Authors"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:96
+msgid "The ``PVGeo`` code library was created and is managed by `Bane Sullivan`_, graduate student in the Hydrological Science and Engineering interdisciplinary program at the Colorado School of Mines under Whitney Trainor-Guitton. If you would like to contact us, please inquire with `info@pvgeo.org`_."
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:104
+msgid "It is important to note the project is open source and that many features in this repository were made possible by contributors volunteering their time. Please take a look at the `Contributors Page`_ to learn more about the developers of ``PVGeo``."
+msgstr ""
+
+#: ../../PVGeo/CITATION.rst:4
+msgid "Citing PVGeo"
+msgstr ""
+
+#: ../../PVGeo/CITATION.rst:9
+msgid "There is a `paper about PVGeo <https://doi.org/10.21105/joss.01451>`_!"
+msgstr ""
+
+#: ../../PVGeo/CITATION.rst:11
+msgid "If you are using PVGeo in your scientific research, please help our scientific visibility by citing our work!"
+msgstr ""
+
+#: ../../PVGeo/CITATION.rst:15
+msgid "Sullivan et al., (2019). PVGeo: an open-source Python package for geoscientific visualization in VTK and ParaView. Journal of Open Source Software, 4(38), 1451, https://doi.org/10.21105/joss.01451"
+msgstr ""
+
+#: ../../PVGeo/CITATION.rst:18
+msgid "BibTex:"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:114
+msgid "Getting Started"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:116
+msgid "To begin using the ``PVGeo`` Python package, create/activate your Python virtual environment (we highly recommend using anaconda) and install ``PVGeo`` through pip:"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:125
+msgid "Now ``PVGeo`` is ready for use in your standard python environment. To use the *PVGeo* library as plugins in `ParaView`_, please see the `detailed explanation here`_."
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:134
+msgid "Current Statistics"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "base"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "filter"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "macro"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "reader"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "source"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "writer"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "12"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "33"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "8"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "17"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:1
+msgid "6"
+msgstr ""

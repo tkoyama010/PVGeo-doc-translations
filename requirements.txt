@@ -18,7 +18,6 @@ espatools>=0.0.8
 discretize>=0.4.3
 # For building the documentation:
 gendocs>=0.4.0
-mock
 Sphinx
 sphinx-autobuild
 sphinx-rtd-theme
