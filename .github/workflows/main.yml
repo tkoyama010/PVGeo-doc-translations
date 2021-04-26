@@ -58,7 +58,6 @@ jobs:
         sleep 3
         set +x
         rm -Rf ./locale/examples/*/*.py
-        mv ./locale/examples ./PVGeo/docs
         git submodule update --remote
         (cd PVGeo; make -C docs html -b coverage; make -C docs doctest; make -C docs html)
         sh ./locale/update.sh
