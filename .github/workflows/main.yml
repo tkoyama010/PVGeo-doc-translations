@@ -44,7 +44,9 @@ jobs:
         pip install -U pip setuptools wheel
         pip install -r ./requirements.txt
         pip install cookiecutter
-        pip install -e .[pyproj,omf,discretize]
+        pip install pyproj
+        pip install omf
+        pip install discretize
         deactivate
     - name: update
       env:
