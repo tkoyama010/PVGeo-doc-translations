@@ -1,4 +1,4 @@
-name: PVGeo-doc-auto-update
+name: pvgeo-doc-auto-update
 on:
   schedule:
     - cron:  '0 0 * * *'
@@ -47,7 +47,7 @@ jobs:
     - name: update
       env:
         SPHINXINTL_TRANSIFEX_USERNAME: api
-        SPHINXINTL_TRANSIFEX_PROJECT_NAME: PVGeo-doc
+        SPHINXINTL_TRANSIFEX_PROJECT_NAME: pvgeo-doc
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
         source /home/runner/work/.venv/bin/activate
