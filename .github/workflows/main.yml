@@ -61,9 +61,7 @@ jobs:
         git submodule update --remote
         (cd PVGeo/docs; make html)
         sh ./locale/update.sh
-        ls ./PVGeo/docs/examples
         mv ./PVGeo/docs/examples ./locale
-        ls ./PVGeo/docs/images
         rm -Rf ./locale/images
         mv ./PVGeo/docs/images ./locale
         deactivate
