@@ -57,16 +57,13 @@ jobs:
         Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
         sleep 3
         set +x
-        # rm -Rf ./locale/examples/*/*.py
-        # mv ./locale/examples ./PVGeo/docs/source
+        rm -Rf ./locale/examples/*/*.py
+        mv ./locale/examples ./PVGeo/docs/source
         git submodule update --remote
         (cd PVGeo/docs; make html)
         sh ./locale/update.sh
         ls ./PVGeo/docs/source/examples
         mv ./PVGeo/docs/source/examples ./locale
-        ls ./PVGeo/docs/source/images
-        rm -Rf ./locale/images
-        mv ./pyvista/docs/source/images ./locale
         deactivate
     - name: commit
       if: contains(github.event.head_commit.message, '[ci skip]') == false && contains(github.ref, 'master')
