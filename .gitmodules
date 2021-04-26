@@ -1,0 +1,3 @@
+[submodule "PVGeo"]
+	path = PVGeo
+	url = https://github.com/OpenGeoVis/PVGeo.git
