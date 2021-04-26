@@ -59,7 +59,7 @@ jobs:
         set +x
         rm -Rf ./locale/examples/*/*.py
         git submodule update --remote
-        (cd PVGeo; make -C docs html -b coverage; make -C docs doctest; make -C docs html)
+        (cd PVGeo/docs; make html)
         sh ./locale/update.sh
         ls ./PVGeo/docs/examples
         mv ./PVGeo/docs/examples ./locale
