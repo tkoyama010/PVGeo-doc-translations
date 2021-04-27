@@ -8,7 +8,7 @@ For example::
 This conf.py do:
 
 - Specify `locale_dirs` and `gettext_compact`.
-- Overrides source directory as 'PVGeo/docs`.
+- Overrides source directory as 'PVGeo/docs/source`.
 
 """
 import os
@@ -29,7 +29,7 @@ autodoc_mock_imports = ["vtk"]
 shutil.rmtree("PVGeo/docs/source/examples", ignore_errors=True)
 shutil.copytree("locale/examples", "PVGeo/docs/source/examples")
 
-basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "PVGeo/docs")
+basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "PVGeo/docs/source")
 
 execfile_(os.path.join(basedir, "conf.py"), globals())
 
