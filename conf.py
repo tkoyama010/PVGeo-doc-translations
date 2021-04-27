@@ -46,11 +46,6 @@ html_static_path = [os.path.join(basedir, "_static")]
 
 
 def setup(app):
-    AutoAutoSummary.app = app
-    app.add_directive("autoautosummary", AutoAutoSummary)
-    app.add_css_file("style.css")
-    app.add_css_file("copybutton.css")
-
     from sphinx.ext.autodoc import cut_lines
     from sphinx.util.docfields import GroupedField
 
