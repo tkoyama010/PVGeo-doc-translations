@@ -33,21 +33,6 @@ basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "PVGeo/docs/s
 
 execfile_(os.path.join(basedir, "conf.py"), globals())
 
-# Automatically generate documentaion pages
-Generator().DocumentPackages(
-    [PVGeo, pvmacros],
-    index_base='./PVGeo/docs/source/index_base.rst',
-    showprivate=True,
-    notify=False,
-    intro_pages=[
-        'overview/why-pvgeo',
-        'overview/getting-started',
-        'overview/featured',
-        'overview/agu-2018',
-    ],
-    append_material=append_material,
-    extra=extra,
-)
 
 
 locale_dirs = [os.path.join(basedir, "../../../locale/")]
