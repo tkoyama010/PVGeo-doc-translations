@@ -63,8 +63,8 @@ jobs:
         (cd PVGeo; git checkout feat/translation)
         (cd PVGeo/docs; make html; set -e; make html;)
         sh ./locale/update.sh
-        ls ./PVGeo/docs/source/examples
-        mv ./PVGeo/docs/source/examples ./locale
+        ls ./PVGeo/examples
+        mv ./PVGeo/examples ./locale
         deactivate
     - name: commit
       if: contains(github.event.head_commit.message, '[ci skip]') == false && contains(github.ref, 'master')
