@@ -63,8 +63,8 @@ jobs:
         (cd PVGeo; git checkout feat/translation)
         (cd PVGeo/docs; make html; set -e; make html;)
         sh ./locale/update.sh
-        ls ./PVGeo/examples
-        mv ./PVGeo/examples ./locale
+        ls ./PVGeo/docs/source/examples
+        mv ./PVGeo/docs/source/examples ./locale
         mv ./PVGeo/docs/source/index.rst ./locale
         deactivate
     - name: commit
