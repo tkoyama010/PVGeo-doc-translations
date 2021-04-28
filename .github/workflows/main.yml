@@ -58,7 +58,7 @@ jobs:
         Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
         sleep 3
         rm -Rf ./locale/examples/*/*.py
-        mv ./locale/examples ./PVGeo
+        mv ./locale/examples ./PVGeo/docs/source
         git submodule update --remote
         (cd PVGeo; git checkout feat/translation)
         (cd PVGeo/docs; make html; set -e; make html;)
