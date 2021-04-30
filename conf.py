@@ -22,7 +22,7 @@ os.environ["PYVISTA_PLOT_THEME"] = "document"
 os.environ["PYVISTA_AUTO_CLOSE"] = "false"
 
 shutil.rmtree("PVGeo/examples", ignore_errors=True)
-shutil.copytree("locale/examples", "PVGeo/examples")
+shutil.copytree("locale/examples", "PVGeo/docs/examples")
 
 basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "PVGeo/docs/source")
 
