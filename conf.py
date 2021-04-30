@@ -21,7 +21,6 @@ os.environ["PYVISTA_USE_PANEL"] = "true"
 os.environ["PYVISTA_PLOT_THEME"] = "document"
 os.environ["PYVISTA_AUTO_CLOSE"] = "false"
 
-autodoc_mock_imports = ["vtk"]
 shutil.rmtree("PVGeo/examples", ignore_errors=True)
 shutil.copytree("locale/examples", "PVGeo/examples")
 
@@ -32,6 +31,14 @@ execfile_(os.path.join(basedir, "conf.py"), globals())
 
 
 locale_dirs = [os.path.join(basedir, "../../../locale/")]
+
+# Mock the paraview module to build pvmacros docs
+import mock
+
+MOCK_MODULES = ['paraview', 'paraview.simple', 'discretize', 'pyproj']
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = mock.Mock()
+autodoc_mock_imports = ['paraview', "vtk"]
 
 sphinx_gallery_conf = {
     "plot_gallery": "False",
