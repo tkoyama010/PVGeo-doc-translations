@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PVGeo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 02:17+0000\n"
+"POT-Creation-Date: 2021-04-30 10:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,7 +156,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/gslib/sgems.py:docstring of PVGeo.gslib.sgems.SGeMSGridReader._read_extent:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.convert_array:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.get_dtypes:0
-#: ../../../../.venv/lib/python3.8/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:0
+#: ../../../../.venv/lib/python3.7/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.place_array_in_table:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.points_to_poly_data:0
 #: ../../PVGeo/PVGeo/ubc/octree.py:docstring of PVGeo.ubc.octree.OcTreeReader.__ubc_octree:0
@@ -206,7 +206,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/gslib/sgems.py:docstring of PVGeo.gslib.sgems.SGeMSGridReader._read_extent:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.convert_array:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.get_dtypes:0
-#: ../../../../.venv/lib/python3.8/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:0
+#: ../../../../.venv/lib/python3.7/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.place_array_in_table:0
 #: ../../PVGeo/PVGeo/interface.py:docstring of PVGeo.interface.points_to_poly_data:0
 #: ../../PVGeo/PVGeo/ubc/octree.py:docstring of PVGeo.ubc.octree.OcTreeReader.__ubc_octree:0
@@ -2728,11 +2728,11 @@ msgstr ""
 msgid "convert_string_array"
 msgstr ""
 
-#: ../../../../.venv/lib/python3.8/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.convert_string_array:1
+#: ../../../../.venv/lib/python3.7/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.convert_string_array:1
 msgid "Convert a numpy array of strings to a vtkStringArray or vice versa."
 msgstr ""
 
-#: ../../../../.venv/lib/python3.8/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.convert_string_array:3
+#: ../../../../.venv/lib/python3.7/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.convert_string_array:3
 msgid "Note that this is terribly inefficient - inefficient support is better than no support :). If you have ideas on how to make this faster, please consider opening a pull request."
 msgstr ""
 
@@ -2776,15 +2776,15 @@ msgstr ""
 msgid "get_vtk_type"
 msgstr ""
 
-#: ../../../../.venv/lib/python3.8/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:1
+#: ../../../../.venv/lib/python3.7/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:1
 msgid "Look up the VTK type for a give python data type."
 msgstr ""
 
-#: ../../../../.venv/lib/python3.8/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:3
+#: ../../../../.venv/lib/python3.7/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:3
 msgid "Corrects for string type mapping issues."
 msgstr ""
 
-#: ../../../../.venv/lib/python3.8/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:5
+#: ../../../../.venv/lib/python3.7/site-packages/pyvista/utilities/helpers.py:docstring of pyvista.utilities.helpers.get_vtk_type:5
 msgid "**int**"
 msgstr ""
 

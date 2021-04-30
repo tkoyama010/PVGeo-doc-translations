@@ -27,15 +27,15 @@ msgstr "例"
 
 #: ../../PVGeo/docs/source/index.rst:163
 msgid "API Index:"
-msgstr ""
+msgstr "APIインデックス:"
 
 #: ../../PVGeo/docs/source/index.rst:172
 msgid "Development Guide"
-msgstr ""
+msgstr "開発ガイド"
 
 #: ../../PVGeo/docs/source/index.rst:3
 msgid "Welcome to PVGeo's code docs!"
-msgstr ""
+msgstr "PVGeoのコードドキュメントへようこそ!"
 
 #: ../../PVGeo/docs/source/index.rst:43
 msgid ""
@@ -46,12 +46,18 @@ msgid ""
 " data visualization in the geosciences with a heavy focus on structured data"
 " sets like 2D or 3D time-varying grids."
 msgstr ""
+"``PVGeo`` "
+"Pythonパッケージには、地球物理学でデータを視覚化するためのVTKベースのツールが含まれています。これらのツールは、アプリケーション "
+"`ParaView by Kitware`_ 内で直接使用するためにラップされているか、 `PyVista Python package`_ "
+"と組み合わせてPython>=3.6環境で直接使用するためにラップされています。これらのツールは、2Dまたは3Dの時変グリッドのような構造化データセットに重点を置いて、地球科学におけるデータ視覚化に合わせて調整されています。"
 
 #: ../../PVGeo/docs/source/index.rst:50
 msgid ""
 "This website hosts the documentation for the ``PVGeo`` Python package found "
 "on `GitHub`_ and `PyPI`_."
 msgstr ""
+"このWebサイトでは、 `GitHub`_ および `PyPI`_ にある ``PVGeo``  "
+"Pythonパッケージのドキュメントをホストしています。"
 
 #: ../../PVGeo/docs/source/index.rst:53
 msgid ""
@@ -59,10 +65,12 @@ msgid ""
 " directly within ParaView, please checkout the code snippets and videos on "
 "the :ref:`About Examples Page`."
 msgstr ""
+"``PVGeo`` をPython環境で使用する方法や、ParaView内で直接使用する方法の概要については、 :ref:`About Examples"
+" Page` のコードスニペットとビデオを参照してください。"
 
 #: ../../PVGeo/docs/source/index.rst:65
 msgid "Connections"
-msgstr ""
+msgstr "接続"
 
 #: ../../PVGeo/docs/source/index.rst:67
 msgid ""
@@ -74,10 +82,14 @@ msgid ""
 " in Python. To learn more about pairing PVGeo with `PyVista`, please check "
 "out the `example Jupyter notebooks`_."
 msgstr ""
+"このパッケージには、地球科学データ形式およびデータ解析を実行するために設計された、VTKに似た多くのアルゴリズムが用意されています。PVGeoアルゴリズムの結果を視覚化できる強力で使いやすいツールをユーザーに提供するために、"
+" PyVista_ "
+":VTKデータオブジェクトおよびPythonでの3D視覚化への簡単なアクセスのためのツールセットの開発に積極的に取り組んでいます。PVGeoと`PyVista`の組み合わせについての詳細は、"
+" `example Jupyter notebooks`_ を参照してください。"
 
 #: ../../PVGeo/docs/source/index.rst:82
 msgid "Requesting Features, Reporting Issues, and Contributing"
-msgstr ""
+msgstr "機能の要望、問題の報告、および貢献"
 
 #: ../../PVGeo/docs/source/index.rst:84
 msgid ""
@@ -87,10 +99,13 @@ msgid ""
 "page so we can promptly address it. For other questions please join the "
 "`PVGeo community on Slack`_."
 msgstr ""
+"`issues page`_ "
+"の機能リクエストとして、このパッケージから見たい機能を自由に投稿してください。ここで配布されているコードを使用中にバグやクラッシュに遭遇した場合は、問題ページに報告して、迅速に対処できるようにしてください。その他の質問は"
+" `PVGeo community on Slack`_ にご参加ください。"
 
 #: ../../PVGeo/docs/source/index.rst:94
 msgid "About the Authors"
-msgstr ""
+msgstr "著者について"
 
 #: ../../PVGeo/docs/source/index.rst:96
 msgid ""
@@ -100,6 +115,9 @@ msgid ""
 "Trainor-Guitton. If you would like to contact us, please inquire with "
 "`info@pvgeo.org`_."
 msgstr ""
+"``PVGeo`` コード・ライブラリーは、Whitney Trainor-Guittonのもとでコロラド大学Mines校のHydrological "
+"Science and Engineering学際プログラムの大学院生である `Bane Sullivan`_ "
+"によって作成され、管理されています。ご連絡の際は、 `info@pvgeo.org`_ にお問い合わせください。"
 
 #: ../../PVGeo/docs/source/index.rst:104
 msgid ""
@@ -108,20 +126,22 @@ msgid ""
 " Please take a look at the `Contributors Page`_ to learn more about the "
 "developers of ``PVGeo``."
 msgstr ""
+"プロジェクトはオープンソースであり、このリポジトリの多くの機能は、時間を割いた貢献者によって可能になったことに注目することが重要です。 "
+"`Contributors Page`_ を見て、 ``PVGeo`` の開発者について学んでください。"
 
 #: ../../PVGeo/CITATION.rst:4
 msgid "Citing PVGeo"
-msgstr ""
+msgstr "PVGeoの引用"
 
 #: ../../PVGeo/CITATION.rst:9
 msgid "There is a `paper about PVGeo <https://doi.org/10.21105/joss.01451>`_!"
-msgstr ""
+msgstr "`PVGeoについての論文 <https://doi.org/10.21105/joss.01451>`_ があります!"
 
 #: ../../PVGeo/CITATION.rst:11
 msgid ""
 "If you are using PVGeo in your scientific research, please help our "
 "scientific visibility by citing our work!"
-msgstr ""
+msgstr "もしあなたが科学研究にPVGeoを使用しているのであれば、私たちの研究を引用して、私たちの科学的な可視性を助けてください!"
 
 #: ../../PVGeo/CITATION.rst:15
 msgid ""
@@ -129,14 +149,17 @@ msgid ""
 "geoscientific visualization in VTK and ParaView. Journal of Open Source "
 "Software, 4(38), 1451, https://doi.org/10.21105/joss.01451"
 msgstr ""
+"Sullivan et al., (2019). PVGeo: an open-source Python package for "
+"geoscientific visualization in VTK and ParaView. Journal of Open Source "
+"Software, 4(38), 1451, https://doi.org/10.21105/joss.01451"
 
 #: ../../PVGeo/CITATION.rst:18
 msgid "BibTex:"
-msgstr ""
+msgstr "BibTex:"
 
 #: ../../PVGeo/docs/source/index.rst:114
 msgid "Getting Started"
-msgstr ""
+msgstr "スタートアップガイド"
 
 #: ../../PVGeo/docs/source/index.rst:116
 msgid ""
@@ -144,6 +167,9 @@ msgid ""
 "virtual environment (we highly recommend using anaconda) and install "
 "``PVGeo`` through pip:"
 msgstr ""
+"``PVGeo`` "
+"Pythonパッケージの使用を開始するには、Python仮想環境を作成/アクティブ化し(anacondaの使用を強くお勧めします)、pipを使用して "
+"``PVGeo`` をインストールします。"
 
 #: ../../PVGeo/docs/source/index.rst:125
 msgid ""
@@ -151,55 +177,57 @@ msgid ""
 "the *PVGeo* library as plugins in `ParaView`_, please see the `detailed "
 "explanation here`_."
 msgstr ""
+"これで、 ``PVGeo`` を標準Python環境で使用できるようになりました。 `ParaView`_ で *PVGeo* "
+"ライブラリをプラグインとして使用するには、 `detailed explanation here`_ を参照してください。"
 
 #: ../../PVGeo/docs/source/index.rst:134
 msgid "Current Statistics"
-msgstr ""
+msgstr "現在の統計情報"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "base"
-msgstr ""
+msgstr "base"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "filter"
-msgstr ""
+msgstr "filter"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "macro"
-msgstr ""
+msgstr "macro"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "reader"
-msgstr ""
+msgstr "reader"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "source"
-msgstr ""
+msgstr "source"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "writer"
-msgstr ""
+msgstr "writer"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "33"
-msgstr ""
+msgstr "33"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "17"
-msgstr ""
+msgstr "17"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../PVGeo/docs/source/index.rst:1
 msgid "6"
-msgstr ""
+msgstr "6"

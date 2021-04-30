@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PVGeo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-26 19:18+0900\n"
 "PO-Revision-Date: 2021-04-26 13:59+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/112279/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:2
 msgid "AGU 2018"
-msgstr ""
+msgstr "AGU 2018"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:4
 msgid ""
@@ -27,6 +31,9 @@ msgid ""
 "Packages for the Geosciences "
 "<https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/56864>`_"
 msgstr ""
+"PVGeoは2018年のAGUセッション `A Tour of Open-Source Software Packages for the "
+"Geosciences <https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/56864>`_"
+" の一部でした"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:6
 msgid ""
@@ -34,28 +41,29 @@ msgid ""
 "the form of a dynamic webpage where people can stop by, interact with the "
 "visualizations, and download code to do it themselves!"
 msgstr ""
+"私たちは、ポスターやライトニングトークを共有する最良の方法は、人々が立ち寄ることができ、視覚化されたものと対話することができ、コードをダウンロードしてそれを自分たちで行うことができる、動的なウェブページのであると考えました。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:11
 msgid "The Poster"
-msgstr ""
+msgstr "ポスター"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:13
 msgid "First and foremost, here's the poster:"
-msgstr ""
+msgstr "何よりもまずポスターです:"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:21
 msgid "The Lightning Talk"
-msgstr ""
+msgstr "ライトニング・トーク"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:23
 msgid ""
 "This section of the page was developed for a 5 minute lightning talk during "
 "the 2018 AGU session."
-msgstr ""
+msgstr "このページのこのセクションは、2018AGUセッション中の5分間のライトニング・トークのために開発されました。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:28
 msgid "Moving Towards Visualization"
-msgstr ""
+msgstr "ビジュアル化への移行"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:30
 msgid ""
@@ -69,67 +77,69 @@ msgid ""
 "becomes both a part of the routine for the researcher as well as a tool for "
 "post processing analysis and communication of findings."
 msgstr ""
+"通常、視覚化ルーチンの3D/4Dアスペクトは、処理コードおよびソフトウェアから分離されています。多くの場合、研究者は作業データを他の形式に変換し、データファイルの静的コピーを作成する必要があります。データを静的に変換すると、特に大規模なプロジェクトでは、作業ディレクトリが乱雑になり、古いデータファイルの管理が困難になります。これを緩和するために,視覚化が研究者のためのルーチンの一部であると同時に,後処理分析と発見の伝達のためのツールとなるように,処理を視覚化に動的にリンクするためのツールとしてPVGeoを提示した。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:44
 msgid "What is PVGeo?"
-msgstr ""
+msgstr "PVGeoとは何ですか?"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:46
 msgid "**Python** package at its core for 3D/4D geovisualization."
-msgstr ""
+msgstr "3D/4Dジオビジュアライゼーションのためのコアの **Python** パッケージ。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:47
 msgid "Create compelling and **integrated visualizations**."
-msgstr ""
+msgstr "説得力のある **統合視覚化** を作成します。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:48
 msgid ""
 "Built upon **VTK**, a scalable and well-maintained visualization library."
-msgstr ""
+msgstr "**VTK** 上に構築されたスケーラブルでメンテナンスの行き届いた視覚化ライブラリ。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:49
 msgid ""
 "Extends geovisualization into **ParaView**, **VTK.js**, and **Virtual "
 "Reality**."
 msgstr ""
+"**ParaView** 、 **VTK.js** 、および **Virtual Reality** にジオビジュアライゼーションを拡張します。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:50
 msgid ""
 "**Open-source**: contribute on `GitHub "
 "<https://github.com/OpenGeoVis/PVGeo>`_"
-msgstr ""
+msgstr "**オープンソース**: `GitHub <https://github.com/OpenGeoVis/PVGeo>`_ に貢献"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:57
 msgid "PVGeo Resources"
-msgstr ""
+msgstr "PVGeoの資源"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:59
 msgid "`Brief demo page <http://demo.pvgeo.org>`_"
-msgstr ""
+msgstr "`簡単なデモページ <http://demo.pvgeo.org>`_"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:60
 msgid "`Slack community <http://slack.pvgeo.org>`_"
-msgstr ""
+msgstr "`Slackコミュニティ <http://slack.pvgeo.org>`_"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:61
 msgid "`The code <https://github.com/OpenGeoVis/PVGeo>`_"
-msgstr ""
+msgstr "`コード <https://github.com/OpenGeoVis/PVGeo>`_"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:62
 msgid "`Use examples in ParaView <../about-examples>`_"
-msgstr ""
+msgstr "`ParaViewでの使用例 <../about-examples>`_"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:63
 msgid "`Nitty gritty code docs <http://docs.pvgeo.org>`_"
-msgstr ""
+msgstr "`根本のコードドキュメント <http://docs.pvgeo.org>`_"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:64
 msgid "`Vimeo video examples <https://vimeo.com/user82050125>`_"
-msgstr ""
+msgstr "`Vimeoのビデオ例 <https://vimeo.com/user82050125>`_"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:69
 msgid "PVGeo in ParaView"
-msgstr ""
+msgstr "ParaViewのPVGeo"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:71
 msgid ""
@@ -137,6 +147,7 @@ msgid ""
 " in ParaView for Python based plugins that can leverage ParaView's powerful "
 "graphical user interface."
 msgstr ""
+"PVGeoは、ParaView内で直接使用するために構築されており、ParaViewの強力なグラフィカル・ユーザー・インターフェースを活用できるPythonベースのプラグイン用のParaViewの新機能を利用しています。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:75
 msgid ""
@@ -145,10 +156,13 @@ msgid ""
 "throughout the examples which are all posted to our `Vimeo Account "
 "<https://vimeo.com/user82050125>`_."
 msgstr ""
+"ParaView内でPVGeoがどのように見えるのかをさらに学ぶために、 `例ページについて <../about-examples>`_ のビデオや、 "
+"`Vimeoアカウント <https://vimeo.com/user82050125>`_ "
+"に投稿されている例を通してその他のビデオをチェックしてください。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:83
 msgid "PVGeo in Python"
-msgstr ""
+msgstr "PythonのPVGeo"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:85
 msgid ""
@@ -157,16 +171,21 @@ msgid ""
 "environment you can get to work using PVGeo directly in your workflows for "
 "analysis, data integration, and visualization!"
 msgstr ""
+"PVGeoは、オペレーティング・システム間でPython3で動作するように構築されています。アクティブな環境にPVGeoと `pyvista "
+"<http://docs.pyvista.org>`_ "
+"をインストールすると、ワークフローでPVGeoを直接使用して解析、データ統合、視覚化を行うことができます。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:97
 msgid ""
 "To learn more about using PVGeo in your Python environment, check out the "
 "psuedo-code on the `About Examples Page <../about-examples>`_"
 msgstr ""
+"Python環境でPVGeoを使用する方法の詳細については， `例ページについて <../about-examples>`_ "
+"の擬似コードを調べてください"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:102
 msgid "Interoperability"
-msgstr ""
+msgstr "相互運用性"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:104
 msgid ""
@@ -174,6 +193,7 @@ msgid ""
 "algorithms or even entire new suites! Or simpler, you could create a plugin "
 "file that gets installed adjacent to your library that leverages PVGeo."
 msgstr ""
+"ソースコードに飛び込み、新しいアルゴリズムを追加したり、新しいスイート全体を追加したりすることで、簡単にPVGeoを拡張することができます。あるいは、PVGeoを利用するライブラリに隣接してインストールされるプラグインファイルを作成することもできます。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:109
 msgid ""
@@ -268,7 +288,7 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:2
 msgid "Getting Started"
-msgstr ""
+msgstr "スタートアップガイド"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:5
 msgid "Using PVGeo in a Python Environment"

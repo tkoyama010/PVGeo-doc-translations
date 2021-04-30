@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PVGeo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tetsuo Koyama <tkoyama010@gmail.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-26 19:18+0900\n"
 "PO-Revision-Date: 2021-04-26 13:59+0000\n"
+"Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/112279/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/about-examples.rst:4
 msgid "About Examples"
-msgstr ""
+msgstr "例について"
 
 #: ../../PVGeo/docs/source/about-examples.rst:6
 msgid ""
@@ -30,22 +34,24 @@ msgid ""
 "procedures and syntax to use each type of algorithm within ParaView or "
 "directly in a Python environment."
 msgstr ""
+"`PVGeo` は、 *suites* と呼ばれるさまざまなサブパッケージに展開されています。これらの *suites* "
+"は、地球科学的な処理と視覚化の一般的な領域に対して、一連のリーダー、フィルタ、ソース、またはライター・アルゴリズム(またはそれらの任意の組合せ)で構成されています。このページの以降のセクションでは、ParaView内で、またはPython環境で直接、各タイプのアルゴリズムを使用するための一般的な手順と構文を示します。"
 
 #: ../../PVGeo/docs/source/about-examples.rst:13
 msgid ""
 "Take a look at the :ref:`ref_examples` for an outline of all the available "
 "examples at this time."
-msgstr ""
+msgstr "現時点で利用可能なすべての例の概要については、 :ref:`ref_examples` を参照してください。"
 
 #: ../../PVGeo/docs/source/about-examples.rst:16
 msgid ""
 "If you think there may be a serious problem with an example, please open an "
 "issue on the `issues page`_ so that we can promptly fix it."
-msgstr ""
+msgstr "例えば、深刻な問題があると思われる場合は、 `issues page`_ の問題を開いて、迅速に修正できるようにしてください。"
 
 #: ../../PVGeo/docs/source/about-examples.rst:23
 msgid "Typical Usage"
-msgstr ""
+msgstr "一般的な使用方法"
 
 #: ../../PVGeo/docs/source/about-examples.rst:25
 msgid ""
@@ -54,16 +60,18 @@ msgid ""
 "keyword arguments for its parameters and then applied on some input data "
 "set."
 msgstr ""
+"*PVGeo* "
+"に展開されたすべてのアルゴリズムは、Python環境で以下の方法で使用できます。Python環境では、アルゴリズムを呼び出し、パラメータのキーワード引数でインスタンス化してから、入力データセットに適用できます。"
 
 #: ../../PVGeo/docs/source/about-examples.rst:36
 msgid ""
 "Or we can instantiate the algorithm for repetitive calls if, for example, we"
 " need to request varying time steps."
-msgstr ""
+msgstr "あるいは、例えばさまざまな時間ステップを要求する必要がある場合に、繰り返し呼び出しのアルゴリズムをインスタンス化することもできます。"
 
 #: ../../PVGeo/docs/source/about-examples.rst:51
 msgid "Reader Algorithms"
-msgstr ""
+msgstr "読み取りアルゴリズム"
 
 #: ../../PVGeo/docs/source/about-examples.rst:53
 msgid ""
