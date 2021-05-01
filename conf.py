@@ -21,7 +21,8 @@ os.environ["PYVISTA_USE_PANEL"] = "true"
 os.environ["PYVISTA_PLOT_THEME"] = "document"
 os.environ["PYVISTA_AUTO_CLOSE"] = "false"
 
-shutil.rmtree("PVGeo/examples", ignore_errors=True)
+shutil.rmtree("PVGeo/docs/examples", ignore_errors=True)
+shutil.rmtree("PVGeo/docs/source/index.rst", ignore_errors=True)
 shutil.copytree("locale/examples", "PVGeo/docs/examples")
 shutil.copyfile("locale/index.rst", "PVGeo/docs/source/index.rst")
 
