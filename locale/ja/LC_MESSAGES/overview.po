@@ -203,80 +203,88 @@ msgid ""
 "data/parameter file, leverage your library for the work, then sends the "
 "results to ParaView for immediate visualization."
 msgstr ""
+"例えば、ライブラリに素晴らしいファイルIOコードがあるとします。あるいは、パラメータファイルに処理ルーチンを事前定義できます; "
+"次に、PVGeoの多数の基本クラスの1つを拡張して入力データ/パラメータファイルを解析するファイル読み込みアルゴリズムを作成します、自分の作品のためにライブラリを活用します、その結果はParaViewに送信され、即座に視覚化されます。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:116
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:118
 msgid ""
 "Create a new reader algorithm and place it in a ``.py`` file like this one "
 "we built for `discretize <http://discretize.simpeg.xyz/en/latest/>`_:"
 msgstr ""
+"新しいリーダーアルゴリズムを作成し、 `discretize <http://discretize.simpeg.xyz/en/latest/>`_ "
+"用に作成した ``.py`` ファイルに配置します。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:172
 msgid "Install PVGeo"
-msgstr ""
+msgstr "PVGeoをインストールする"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:174
 msgid ""
 "Eager to give PVGeo a try? The easiest way to install PVGeo is from PyPI "
 "using pip:"
-msgstr ""
+msgstr "PVGeoを試してみたい?PVGeoをインストールする最も簡単な方法は、pipを使用してPyPIからインストールすることです。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:182
 msgid "You should follow the `getting started guide <./getting-started>`_"
-msgstr ""
+msgstr "あなたは `スタートアップガイド <./getting-started>`_ に従うべきです"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:186
 msgid "Take aways"
-msgstr ""
+msgstr "持ち帰ってほしいこと"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:188
 msgid "Join `PVGeo on Slack <http://slack.pvgeo.org>`_"
-msgstr ""
+msgstr "`PVGeoのSlack <http://slack.pvgeo.org>`_ に参加する"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:189
 msgid "The slack workspace is for anyone using ParaView for geovisualization"
-msgstr ""
+msgstr "Slackのワークスペースは、地理視覚化のためにParaViewを使っている人なら誰でも利用できる。"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:190
 msgid "ParaView natively extends into VR (dynamically linked)"
-msgstr ""
+msgstr "ParaViewをVRにネイティブ拡張(動的リンク)"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:191
 msgid "VTK and ParaView are incredibly scalable"
-msgstr ""
+msgstr "VTKとParaViewは非常にスケーラブル"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:192
 msgid "PVGeo is Python based and open-source"
-msgstr ""
+msgstr "PVGeoはPythonベースでオープンソース"
 
 #: ../../PVGeo/docs/source/overview/agu-2018.rst:194
 msgid ""
 "Here is an example of what can be done in ParaView via PVGeo with an "
 "interactive and shareable version below:"
-msgstr ""
+msgstr "PVGeo経由でParaViewで実行できる操作の例を次に示します。この例では、インタラクティブで共有可能なバージョンを使用しています。"
 
 #: ../../PVGeo/docs/source/overview/featured.rst:2
 msgid "Featured"
-msgstr ""
+msgstr "特徴"
 
 #: ../../PVGeo/docs/source/overview/featured.rst:4
 msgid "Here is a list of where *PVGeo* has been featured or used:"
-msgstr ""
+msgstr "*PVGeo* がどこで取り上げられ、使用されているかのリストは以下の通りです:"
 
 #: ../../PVGeo/docs/source/overview/featured.rst:6
 msgid ""
 "`SimPEG Weekly Newsletter/Meeting: 13 November 2018 "
 "<https://mailchi.mp/0ceb7504fb7a/simpeg-meeting-nov-13>`_"
 msgstr ""
+"`SimPEG Weekly Newsletter/Meeting: 13 November 2018 "
+"<https://mailchi.mp/0ceb7504fb7a/simpeg-meeting-nov-13>`_"
 
 #: ../../PVGeo/docs/source/overview/featured.rst:7
 msgid ""
 "`SimPEG Blog: May 28 — 3 June 2018 "
 "<https://medium.com/simpeg/may-28-june-3-23d7f45d22de>`_"
 msgstr ""
+"`SimPEG Blog: May 28 — 3 June 2018 "
+"<https://medium.com/simpeg/may-28-june-3-23d7f45d22de>`_"
 
 #: ../../PVGeo/docs/source/overview/featured.rst:8
 msgid ""
@@ -285,6 +293,10 @@ msgid ""
 "<https://github.com/softwareunderground/awesome-open-"
 "geoscience#visualization>`_"
 msgstr ""
+"`Awesome Open Geoscience <https://github.com/softwareunderground/awesome-"
+"open-geoscience>`_ as a `Visualization Tool "
+"<https://github.com/softwareunderground/awesome-open-"
+"geoscience#visualization>`_"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:2
 msgid "Getting Started"
