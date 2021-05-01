@@ -58,11 +58,15 @@ jobs:
         sleep 3
         set +x
         rm -Rf ./locale/examples/*/*.py
+        cp -r ./locale/examples ./PVGeo/docs
+        rm -Rf ./locale/examples
         git submodule update --remote
+        (cd PVGeo; git checkout feat/translation)
         (cd PVGeo/docs; make html)
         sh ./locale/update.sh
-        ls ./PVGeo/docs/source/examples
-        mv ./PVGeo/docs/source/examples ./locale
+        ls ./PVGeo/docs/examples
+        mv ./PVGeo/docs/examples ./locale
+        mv ./PVGeo/docs/source/index.rst ./locale
         deactivate
     - name: commit
       if: contains(github.event.head_commit.message, '[ci skip]') == false && contains(github.ref, 'master')
