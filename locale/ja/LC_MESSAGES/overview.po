@@ -304,7 +304,7 @@ msgstr "スタートアップガイド"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:5
 msgid "Using PVGeo in a Python Environment"
-msgstr ""
+msgstr "Python環境でPVGeoを使用する"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:7
 msgid ""
@@ -313,42 +313,44 @@ msgid ""
 "support the use of PVGeo in a Python 2 environment unless it is directly in "
 "ParaView's build)."
 msgstr ""
+"ParaViewを使用せずにPython(>=3.6)でPVGeoを使用する場合は、アクティブなPython環境にPVGeoをインストールするだけです "
+"(Python2環境でのPVGeoの使用は、ParaViewのビルドに直接含まれていない限りサポートされません)。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:12
 msgid "Install PVGeo via `pip <https://pypi.org/project/PVGeo/>`_::"
-msgstr ""
+msgstr "`pip <https://pypi.org/project/PVGeo/>`_ 経由でPVGeoをインストール::"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:18
 msgid "Required dependencies"
-msgstr ""
+msgstr "必要な依存関係"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:20
 msgid "`vtk <https://pypi.org/project/vtk/>`_"
-msgstr ""
+msgstr "`vtk <https://pypi.org/project/vtk/>`_"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:21
 msgid "`pyvista <https://pypi.org/project/pyvista/>`_"
-msgstr ""
+msgstr "`pyvista <https://pypi.org/project/pyvista/>`_"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:22
 msgid "`numpy <https://pypi.org/project/numpy/>`_"
-msgstr ""
+msgstr "`numpy <https://pypi.org/project/numpy/>`_"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:23
 msgid "`scipy <https://pypi.org/project/scipy/>`_"
-msgstr ""
+msgstr "`scipy <https://pypi.org/project/scipy/>`_"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:24
 msgid "`pandas <https://pypi.org/project/pandas/>`_"
-msgstr ""
+msgstr "`pandas <https://pypi.org/project/pandas/>`_"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:25
 msgid "`espatools <https://pypi.org/project/espatools/>`_"
-msgstr ""
+msgstr "`espatools <https://pypi.org/project/espatools/>`_"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:29
 msgid "Optional dependencies"
-msgstr ""
+msgstr "オプションの依存関係"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:31
 msgid ""
@@ -359,18 +361,24 @@ msgid ""
 " the repo but the needed requirements for PVGeo to work will be installed "
 "with PVGeo. Some useful dependencies:"
 msgstr ""
+"PVGeoには、必要のない依存関係がいくつかあります。これらの依存関係によって、使用可能なアルゴリズムや機能を増やすことができます。すべての要件はリポジトリの"
+" `requirements.txt "
+"<https://github.com/OpenGeoVis/PVGeo/blob/master/requirements.txt>`_ "
+"ファイルにありますが、PVGeoが動作するために必要な要件はPVGeoとともにインストールされます。いくつかの有用な依存関係:"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:37
 msgid ""
 "`discretize <https://pypi.org/project/discretize/>`_: Adds algorithms that "
 "harnesses ``discretize``'s finite volume code and file IO methods."
 msgstr ""
+"`discretize <https://pypi.org/project/discretize/>`_: ``discretize`` "
+"の有限体積コードとファイルIOメソッドを利用するアルゴリズムを追加します。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:38
 msgid ""
 "`pyproj <https://pypi.org/project/pyproj/>`_: Adds algorithms that can "
 "perform coordinate transformations"
-msgstr ""
+msgstr "`pyproj <https://pypi.org/project/pyproj/>`_: 座標変換を実行できるアルゴリズムを追加します"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:39
 msgid ""
@@ -378,10 +386,12 @@ msgid ""
 "<https://pypi.org/project/omfvista/>`_: Provides support for the Open Mining"
 " Format (OMF)"
 msgstr ""
+"`omf <https://pypi.org/project/omf/>`_ と `omfvista "
+"<https://pypi.org/project/omfvista/>`_: Open Mining Format(OMF)をサポート"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:43
 msgid "Using PVGeo in ParaView"
-msgstr ""
+msgstr "ParaViewでPVGeoを使用する"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:45
 msgid ""
@@ -392,10 +402,13 @@ msgid ""
 "should leave it alone and install PVGeo using the steps in the section above"
 " for the Python environments you use everyday."
 msgstr ""
+"ParaViewのグラフィカルユーザインタフェースでPVGeoを直接使用したい場合は、このセクションの残りの手順を慎重に実行する必要があります。この手順では、ParaViewのインストールで共有される独立"
+" **Python2.7環境** "
+"を設定しています。この環境を作成した後は、この環境をそのままにして、日常的に使用するPython環境用の上記のセクションの手順に従ってPVGeoをインストールする必要があります。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:54
 msgid "A Brief Introduction to ParaView"
-msgstr ""
+msgstr "ParaViewの簡単な紹介"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:56
 msgid ""
@@ -407,6 +420,11 @@ msgid ""
 "and better ParaView will run. However, it can run quite well on a laptop "
 "with a standard graphics card such as a MacBook Pro."
 msgstr ""
+"ParaViewは、2D、3D、4D(時間的に変化する)のデータセットを視覚化できるオープンソースプラットフォームです。 "
+"ParaViewは、複数の非常に大きなデータセットを並行して処理し、その結果を後で収集して、ユーザーが操作できる応答性の高いグラフィックス環境を生成することができます。"
+" "
+"ソフトウェアをホストするマシンのプロセッサとグラフィックスハードウェアが優れていればいるほど、ParaViewの実行速度とパフォーマンスは向上します。しかし、MacBook"
+" Proのような標準的なグラフィックスカードを搭載したラップトップでは非常にうまく動作します。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:64
 msgid ""
@@ -415,6 +433,9 @@ msgid ""
 "started with ParaView is to `download the compiled binary installers for "
 "your operating system <https://www.paraview.org/download/>`_."
 msgstr ""
+"ParaViewはオープンソースのアプリケーションなので、誰でもプログラムとそのソースコードをダウンロードして修正することができます。 "
+"ParaViewを使い始める最も簡単な方法は、 `ご使用のオペレーティングシステム用のコンパイル済みバイナリインストーラをダウンロードします "
+"<https://www.paraview.org/download/>`_ を使うことです。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:68
 msgid ""
@@ -426,10 +447,14 @@ msgid ""
 "filters, and more. The other is a guide on how to do scripting, macros, and "
 "more intense use of the application."
 msgstr ""
+"詳細については、Kitware提供の `文書 <https://www.paraview.org/documentation/>`_ "
+"を参照してください。特に、ParaViewの簡単なツアーを見る価値のある2つは **The ParaView Guide** と **The "
+"ParaView Tutorial** です。 "
+"1つはParaViewソフトウェアのチュートリアルで、ソースの作成方法やフィルタの適用方法などを説明しています。もう1つはスクリプト、マクロ、アプリケーションのより高度な使い方などを説明したガイドです。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:76
 msgid "Install ParaView"
-msgstr ""
+msgstr "ParaViewをインストールする"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:78
 msgid ""
@@ -437,6 +462,9 @@ msgid ""
 "<https://www.paraview.org/download/>`_ for ParaView 5.6.x (or greater) and "
 "follow the prompts with the installer."
 msgstr ""
+"ParaView5.6.x(またはそれ以降)用に `ParaView's website "
+"<https://www.paraview.org/download/>`_ "
+"からダウンロードしたインストーラを開き、インストーラのプロンプトに従います。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:82
 msgid ""
@@ -446,6 +474,8 @@ msgid ""
 "workflow for those unfamiliar with the software and its general "
 "capabilities."
 msgstr ""
+"アプリケーションのGUI環境の詳細については、 **The ParaView Tutorial** "
+"のセクション2.1を参照してください。チュートリアルの第2章全体では、ソフトウェアとその一般的な機能に慣れていない人のために、ソフトウェアとそのワークフローを詳しく説明しています。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:88
 msgid ""
@@ -455,10 +485,14 @@ msgid ""
 "absolute path of the files loaded into ParaView, so be sure to select "
 "*Search for Files Under Directory...* when opening these state files)."
 msgstr ""
+"便利な機能の1つは、ParaView環境の状態を保存することです。これにより、一部のデータを視覚化するために適用したすべてのフィルタに対して選択したすべてのオプションが保存されます。"
+" *File->Save State…* を選択 "
+"(*注:*これにより、ParaViewにロードされたファイルの絶対パスが保存されます。したがって、これらの状態ファイルを開くときは、必ず *Search"
+" for Files Under Directory...* を選択してください。)。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:95
 msgid "Install *PVGeo*"
-msgstr ""
+msgstr "Install *PVGeo*"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:97
 msgid ""
@@ -468,6 +502,8 @@ msgid ""
 "*PVGeo* Python package, create a new virtual environment and install *PVGeo*"
 " through pip."
 msgstr ""
+"Anacondaを使用してPython仮想環境を管理することを強くお勧めします。また、AnacondaによるインストールPythonディストリビューションは、Mac、Windows、およびLinuxオペレーティングシステム上で動作することがわかっています。"
+" *PVGeo*  Pythonパッケージの使用を開始するには、新しい仮想環境を作成し、pipを使用して *PVGeo* をインストールします。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:108
 msgid ""
@@ -477,6 +513,8 @@ msgid ""
 "dependencies for ParaView to use. If you'd like to use PVGeo outside of "
 "ParaView, any version of Python will work (except Python 2.x on Windows)."
 msgstr ""
+"PVGeoをParaViewにリンクする場合は、 **Python 2.7** "
+"仮想環境を使用する必要があります。この2.7環境を作成すると、PVGeoとその依存関係を保持してParaViewで使用する場合にのみ必要なので、再度使用しないこともできます。ParaView以外でPVGeoを使用する場合は、Pythonのどのバージョンでも使用できます(Windows上のPython2.xを除く)。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:122
 msgid "Non-Windows Users"
