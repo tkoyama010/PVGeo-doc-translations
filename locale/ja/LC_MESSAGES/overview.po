@@ -518,13 +518,14 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:122
 msgid "Non-Windows Users"
-msgstr ""
+msgstr "Windows以外のユーザー"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:124
 msgid ""
 "Now you must install VTK to your virtual environment. For Linux and Mac "
 "users, simply install VTK through `pip`:"
 msgstr ""
+"次に、仮想環境にVTKをインストールする必要があります。LinuxおよびMacユーザの場合は、 `pip` 経由でVTKをインストールします。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:132
 msgid ""
@@ -534,10 +535,13 @@ msgid ""
 "of ParaView, you must use a Python >=3.6 version and install VTK through "
 "``conda`` or ``pip``."
 msgstr ""
+"Windowsではどうですか?ParaViewで使用するためにPVGeoをインストールする場合、VTK "
+"PythonパッケージはParaViewインストールの下で使用でき、PVGeoはそのライブラリを使用します。ParaView以外のWindowsでPVGeoを使用する場合は、Python>=3.6バージョンを使用し、VTKを"
+" ``conda`` または ``pip`` 経由でインストールする必要があります。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:141
 msgid "Install PVGeo to ParaView"
-msgstr ""
+msgstr "PVGeoをParaViewにインストールする"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:143
 msgid ""
@@ -545,6 +549,8 @@ msgid ""
 "5.6.x (and higher) of ParaView. You can find the `ParaView downloads page "
 "<https://www.paraview.org/download/>`_"
 msgstr ""
+"ParaViewの最新リリースを使用する: PVGeoは、バージョン5.6.x (と以降) のParaViewとのみ互換性があります。 "
+"`ParaViewダウンロードページ <https://www.paraview.org/download/>`_ があります"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:147
 msgid ""
@@ -553,10 +559,13 @@ msgid ""
 "load a series of plugin files that wrap the *PVGeo* code base with "
 "ParaView's Graphical User Interface."
 msgstr ""
+"ParaViewで *PVGeo* ライブラリをプラグインとして使用するには、 *PVGeo* "
+"をインストールした仮想環境をParaViewのPython環境にリンクし、 *PVGeo* "
+"コード・ベースをParaViewのグラフィカル・ユーザー・インターフェースでラップする一連のプラグイン・ファイルをロードする必要があります。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:154
 msgid "Linking *PVGeo*"
-msgstr ""
+msgstr "*PVGeo* のリンク"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:156
 msgid ""
@@ -565,24 +574,26 @@ msgid ""
 "retrieve the needed paths from *PVGeo*. Do this by executing the following "
 "from your command line:"
 msgstr ""
+"まず、 *PVGeo* の仮想環境をParaViewにリンクし、 ``PYTHONPATH`` と ``PV_PLUGIN_PATH`` "
+"環境変数を設定します。まず、必要なパスを *PVGeo* から取得します。コマンドラインから次のコマンドを実行します。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:166
 msgid "Having Trouble?"
-msgstr ""
+msgstr "何か問題でも?"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:168
 msgid ""
 "Try executing the following command to debug the launcher creation (this "
 "will help us if you create an issue):"
-msgstr ""
+msgstr "次のコマンドを実行して、ランチャーの作成をデバッグしてみてください (これは、問題を作成する場合に役立ちます):"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:171
 msgid "```bash (pvgeoenv) $ python -m PVGeo install echo ```"
-msgstr ""
+msgstr "```bash (pvgeoenv) $ python -m PVGeo install echo ```"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:176
 msgid "Mac OS Users"
-msgstr ""
+msgstr "Mac OSユーザ"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:178
 msgid ""
@@ -592,10 +603,13 @@ msgid ""
 "you are on a Mac, run that command and skip to [Loading the Plugins"
 "](#loading-the-plugins)"
 msgstr ""
+"上記のスクリプトは、これから環境変数に設定する必要があるパスを出力します。Mac OS "
+"Xコンピュータを使用している場合、このスクリプトはインストール用に実行するシェルコマンドを出力します。Macの場合は、そのコマンドを実行して "
+"[プラグインのロード](#loading-the-plugins) にスキップします。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:184
 msgid "Windows Users"
-msgstr ""
+msgstr "Windowsユーザー"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:186
 msgid ""
@@ -605,26 +619,33 @@ msgid ""
 "launch ParaView it is own environment with environmental variables "
 "appropriately set."
 msgstr ""
+"環境変数の設定は、Windowsでは少し複雑です。どうやって ``python -m PVGeo install`` "
+"を走らせたか覚えてる?デスクトップに ``PVGeoLauncher.bat`` "
+"という新しいファイルができました。このファイルを使用して、環境変数が適切に設定された独自の環境であるParaViewを安全に起動します。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:191
 msgid "Go to your Desktop and right-click to select **New->Shortcut**."
-msgstr ""
+msgstr "デスクトップに移動して右クリックし、 **New->Shortcut** を選択します。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:193
 msgid ""
 "2. **Browse...** to the ``PVGeoLauncher.bat`` on your Desktop. Not sure "
 "where this file is? Check the output of the `install` command from above."
 msgstr ""
+"2. デスクトップ上の ``PVGeoLauncher.bat`` を **ブラウズ...** します。このファイルがどこにあるかわからない?上記の "
+"`install` コマンドの出力を確認してください。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:196
 msgid ""
 "3. Click **Next** and give your shortcut a meaningful name like "
 "**ParaView+PVGeo** and select **Finish**."
 msgstr ""
+"3. **Next** をクリックし、ショートカットに **ParaView+PVGeo** のようなわかりやすい名前を付けて **Finish** "
+"を選択します。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:199
 msgid "Now right-click that newly created shortcut and select **Properties**."
-msgstr ""
+msgstr "新しく作成したショートカットを右クリックし、 **Properties** を選択します。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:201
 msgid ""
@@ -635,14 +656,19 @@ msgid ""
 "copying the path in the navigation bar at the top of the window. Paste this "
 "path into the **Start in** field."
 msgstr ""
+"5. **Start in** "
+"フィールドには、ParaViewインストール(トップレベル)へのパスを使用します。これを確認するには、ParaViewがインストールされている場所に移動してください。"
+" ``C:\\Program Files`` で ``ParaView 5.6-xxxxxx`` フォルダを見つけます。 "
+"そのフォルダに移動し、ウィンドウの上部にあるナビゲーションバーのパスをコピーしてフルパスをコピーします。このパスを **Start in** "
+"フィールドに貼り付けます。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:207
 msgid "Click **Apply** then **Okay**"
-msgstr ""
+msgstr "**Apply** 、 **Okay** の順にクリックします。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:209
 msgid "Now launch ParaView using your new shortcut!"
-msgstr ""
+msgstr "新しいショートカットを使用してParaViewを起動してください。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:211
 msgid ""
@@ -651,10 +677,13 @@ msgid ""
 "pvmacros``. Errors should not arise but if they do, seek help via `the Slack"
 " community <http://slack.pvgeo.org>`_."
 msgstr ""
+"6. インストールが動作したことをテストする:  **Python Shell** を開き、 ``import PVGeo`` と ``import "
+"pvmacros`` を実行して、このリポジトリで配布されたモジュールをインポートします。 エラーは発生しませんが、発生した場合は、 `Slack "
+"コミュニティ <http://slack.pvgeo.org>`_ を介して支援を求めてください。"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:217
 msgid "Loading the Plugins"
-msgstr ""
+msgstr "プラグインのロード"
 
 #: ../../PVGeo/docs/source/overview/getting-started.rst:219
 msgid ""
