@@ -748,7 +748,7 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/overview/why-pvgeo.rst:2
 msgid "Why PVGeo?"
-msgstr ""
+msgstr "なぜPVGeoなのか?"
 
 #: ../../PVGeo/docs/source/overview/why-pvgeo.rst:6
 msgid ""
@@ -769,6 +769,13 @@ msgid ""
 "this website, and open-source on `GitHub "
 "<https://github.com/OpenGeoVis/PVGeo>`_ for community-driven developments."
 msgstr ""
+"PVGeoは地球科学的な視覚化と分析利用のためのオープンソースのPythonパッケージで、すでに強力なソフトウェアプラットフォームを利用しています: "
+"`Visualization Toolkit (VTK) <https://vtk.org>`_ とそのフロントエンドアプリケーションである "
+"ParaView_ "
+"。VTKソフトウェアプラットフォームは十分に保守されており、広範なネイティブ機能を備えており、可視化のための強固な基盤を提供しますが、地球科学データおよびモデルと互換性のあるツールの開発は非常に限られています。VTKソフトウェアプラットフォームは十分に保守されており、広範なネイティブ機能を備えており、科学の可視化のための強固な基盤を提供しますが、地球科学データおよびモデルと互換性のあるツールの開発は非常に限られています。PVGeoは、VTKとParaViewのソフトウェア拡張パッケージとして、地球科学的な互換性の欠如に対処するために、地球視覚化のフレームワークを作成しました。このフレームワークは、地球科学データとモデルをParaViewのグラフィカル・ユーザー・インターフェース内で直接視覚的に統合するための一連のツールであり、地球科学データセット魅力的に視覚化するために必要なルーチンを単純化するものです。PVGeoパッケージは"
+" `PyPI <https://pypi.org/project/PVGeo/>`_ (``pip install "
+"PVGeo``)からダウンロードでき、このウェブサイトに文書化されており、コミュニティ主導の開発のために `GitHub "
+"<https://github.com/OpenGeoVis/PVGeo>`_ でオープンソースである。"
 
 #: ../../PVGeo/docs/source/overview/why-pvgeo.rst:26
 msgid "About the Project"
