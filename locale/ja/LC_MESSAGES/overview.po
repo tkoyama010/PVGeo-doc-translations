@@ -779,7 +779,7 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/overview/why-pvgeo.rst:26
 msgid "About the Project"
-msgstr ""
+msgstr "プロジェクトについて"
 
 #: ../../PVGeo/docs/source/overview/why-pvgeo.rst:28
 msgid ""
@@ -793,6 +793,10 @@ msgid ""
 "features like topography, well locations, survey points, or other known "
 "features that are easier to spatially grasp."
 msgstr ""
+"このコードベースには、Kitwareのオープンソース、マルチプラットフォーム、データ解析、視覚化アプリケーション ParaView_ "
+"用のプラグインとマクロが満載です。これらのプラグインは、地球科学、特に地球物理学における空間参照データの視覚化に合わせて調整されています。このプロジェクトの全体的な目標は、より"
+" *直感的な* "
+"視覚化のために、データを視覚的に統合するためのコードセットを開発することです。より直感的な視覚化を行うためには、地形、坑井位置、測量点、または空間的に把握しやすい他の既知の特徴のような特徴に関連したデータを参照することが必要です。"
 
 #: ../../PVGeo/docs/source/overview/why-pvgeo.rst:38
 msgid ""
