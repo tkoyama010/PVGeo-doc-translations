@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PVGeo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 19:18+0900\n"
+"POT-Creation-Date: 2021-05-10 00:35+0000\n"
 "PO-Revision-Date: 2021-04-26 13:59+0000\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/getfem-doc/teams/112279/ja/)\n"
@@ -36,6 +36,38 @@ msgstr "開発ガイド"
 #: ../../PVGeo/docs/source/index.rst:3
 msgid "Welcome to PVGeo's code docs!"
 msgstr "PVGeoのコードドキュメントへようこそ!"
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "Vimeo"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "PyPI"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "Codacy Badge"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "Slack"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "Testing Status"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "Code Coverage"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "GitHub Contributors"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rstNone
+msgid "Documentation Built by gendocs"
+msgstr ""
 
 #: ../../PVGeo/docs/source/index.rst:43
 msgid ""

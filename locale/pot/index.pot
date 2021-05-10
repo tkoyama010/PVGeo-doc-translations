@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PVGeo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-26 19:18+0900\n"
+"POT-Creation-Date: 2021-05-10 00:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,38 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/index.rst:3
 msgid "Welcome to PVGeo's code docs!"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "Vimeo"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "PyPI"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "Codacy Badge"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "Slack"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "Testing Status"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "Code Coverage"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "GitHub Contributors"
+msgstr ""
+
+#: ../../PVGeo/docs/source/index.rst:None
+msgid "Documentation Built by gendocs"
 msgstr ""
 
 #: ../../PVGeo/docs/source/index.rst:43
