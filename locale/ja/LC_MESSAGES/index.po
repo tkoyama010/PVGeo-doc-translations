@@ -39,11 +39,11 @@ msgstr "PVGeoのコードドキュメントへようこそ!"
 
 #: ../../PVGeo/docs/source/index.rstNone
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: ../../PVGeo/docs/source/index.rstNone
 msgid "PyPI"
-msgstr ""
+msgstr "PyPI"
 
 #: ../../PVGeo/docs/source/index.rstNone
 msgid "Codacy Badge"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../PVGeo/docs/source/index.rstNone
 msgid "Slack"
-msgstr ""
+msgstr "Slack"
 
 #: ../../PVGeo/docs/source/index.rstNone
 msgid "Testing Status"
