@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PVGeo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-30 10:26+0000\n"
+"POT-Creation-Date: 2021-11-11 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -342,7 +342,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/_helpers/errors.py:docstring of PVGeo._helpers.errors.HiddenPrints:1
 #: ../../PVGeo/PVGeo/filters/xyz.py:docstring of PVGeo.filters.xyz.RotationTool:1
 #: ../../PVGeo/pvmacros/vis/objs.py:docstring of pvmacros.vis.objs.camera:1
-msgid "Bases: :class:`object`"
+msgid "Bases: :py:class:`object`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/_helpers/errors.py:docstring of PVGeo._helpers.errors.ErrorObserver:1
@@ -389,7 +389,7 @@ msgid "PVGeoError"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/_helpers/errors.py:docstring of PVGeo._helpers.errors.PVGeoError:1
-msgid "Bases: :class:`Exception`"
+msgid "Bases: :py:class:`Exception`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/_helpers/errors.py:docstring of PVGeo._helpers.errors.PVGeoError:1
@@ -598,7 +598,7 @@ msgid "Algorithm Base"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/base.py:docstring of PVGeo.base.AlgorithmBase:1
-msgid "Bases: :class:`vtk.util.vtkAlgorithm.VTKPythonAlgorithmBase`"
+msgid "Bases: :py:class:`vtk.util.vtkAlgorithm.VTKPythonAlgorithmBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/base.py:docstring of PVGeo.base.AlgorithmBase:1
@@ -661,7 +661,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/model_build/grids.py:docstring of PVGeo.model_build.grids.CreateUniformGrid:1
 #: ../../PVGeo/PVGeo/ubc/tensor.py:docstring of PVGeo.ubc.tensor.TopoMeshAppender:1
 #: ../../PVGeo/PVGeo/ubc/two_file_base.py:docstring of PVGeo.ubc.two_file_base.ModelAppenderBase:1
-msgid "Bases: :class:`PVGeo.base.AlgorithmBase`"
+msgid "Bases: :py:class:`PVGeo.base.AlgorithmBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/base.py:docstring of PVGeo.base.FilterBase:1
@@ -693,7 +693,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/grids/transform.py:docstring of PVGeo.grids.transform.ReverseImageDataAxii:1
 #: ../../PVGeo/PVGeo/grids/transform.py:docstring of PVGeo.grids.transform.TableToTimeGrid:1
 #: ../../PVGeo/PVGeo/grids/transform.py:docstring of PVGeo.grids.transform.TranslateGridOrigin:1
-msgid "Bases: :class:`PVGeo.base.FilterBase`"
+msgid "Bases: :py:class:`PVGeo.base.FilterBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/base.py:docstring of PVGeo.base.FilterPreserveTypeBase:1
@@ -712,7 +712,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/grids/fileio.py:docstring of PVGeo.grids.fileio.SurferGridReader:1
 #: ../../PVGeo/PVGeo/readers/binaries.py:docstring of PVGeo.readers.binaries.PackedBinariesReader:1
 #: ../../PVGeo/PVGeo/readers/delimited.py:docstring of PVGeo.readers.delimited.DelimitedTextReader:1
-msgid "Bases: :class:`PVGeo.base.ReaderBase`"
+msgid "Bases: :py:class:`PVGeo.base.ReaderBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/base.py:docstring of PVGeo.base.InterfacedBaseReader:1
@@ -754,7 +754,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/base.py:docstring of PVGeo.base.ReaderBase:1
 #: ../../PVGeo/PVGeo/gmggroup/reader.py:docstring of PVGeo.gmggroup.reader.OMFReader:1
 #: ../../PVGeo/PVGeo/grids/fileio.py:docstring of PVGeo.grids.fileio.LandsatReader:1
-msgid "Bases: :class:`PVGeo.base.ReaderBaseBase`"
+msgid "Bases: :py:class:`PVGeo.base.ReaderBaseBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/base.py:docstring of PVGeo.base.ReaderBase:1
@@ -1009,7 +1009,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/filters/xyz.py:docstring of PVGeo.filters.xyz.ConvertUnits:1
 #: ../../PVGeo/PVGeo/filters/xyz.py:docstring of PVGeo.filters.xyz.LonLatToUTM:1
 #: ../../PVGeo/PVGeo/ubc/general.py:docstring of PVGeo.ubc.general.GeologyMapper:1
-msgid "Bases: :class:`PVGeo.base.FilterPreserveTypeBase`"
+msgid "Bases: :py:class:`PVGeo.base.FilterPreserveTypeBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/math.py:docstring of PVGeo.filters.math.ArrayMath:1
@@ -1435,7 +1435,7 @@ msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/slicing.py:docstring of PVGeo.filters.slicing.ManySlicesAlongAxis:1
 #: ../../PVGeo/PVGeo/filters/slicing.py:docstring of PVGeo.filters.slicing.ManySlicesAlongPoints:1
-msgid "Bases: :class:`PVGeo.filters.slicing._SliceBase`"
+msgid "Bases: :py:class:`PVGeo.filters.slicing._SliceBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/slicing.py:docstring of PVGeo.filters.slicing.ManySlicesAlongAxis:1
@@ -1535,7 +1535,7 @@ msgid "Slice Through Time"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/slicing.py:docstring of PVGeo.filters.slicing.SliceThroughTime:1
-msgid "Bases: :class:`PVGeo.filters.slicing.ManySlicesAlongAxis`"
+msgid "Bases: :py:class:`PVGeo.filters.slicing.ManySlicesAlongAxis`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/slicing.py:docstring of PVGeo.filters.slicing.SliceThroughTime:1
@@ -1561,7 +1561,7 @@ msgid "Slide Slice Along Points"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/slicing.py:docstring of PVGeo.filters.slicing.SlideSliceAlongPoints:1
-msgid "Bases: :class:`PVGeo.filters.slicing.ManySlicesAlongPoints`"
+msgid "Bases: :py:class:`PVGeo.filters.slicing.ManySlicesAlongPoints`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/slicing.py:docstring of PVGeo.filters.slicing.SlideSliceAlongPoints:1
@@ -1975,7 +1975,7 @@ msgid "Points to Tube"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/xyz.py:docstring of PVGeo.filters.xyz.PointsToTube:1
-msgid "Bases: :class:`PVGeo.filters.xyz.AddCellConnToPoints`"
+msgid "Bases: :py:class:`PVGeo.filters.xyz.AddCellConnToPoints`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/filters/xyz.py:docstring of PVGeo.filters.xyz.PointsToTube:1
@@ -2151,7 +2151,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/grids/fileio.py:docstring of PVGeo.grids.fileio.EsriGridReader:1
 #: ../../PVGeo/PVGeo/readers/delimited.py:docstring of PVGeo.readers.delimited.DelimitedPointsReaderBase:1
 #: ../../PVGeo/PVGeo/readers/delimited.py:docstring of PVGeo.readers.delimited.XYZTextReader:1
-msgid "Bases: :class:`PVGeo.readers.delimited.DelimitedTextReader`"
+msgid "Bases: :py:class:`PVGeo.readers.delimited.DelimitedTextReader`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/grids/fileio.py:docstring of PVGeo.grids.fileio.EsriGridReader:1
@@ -2283,7 +2283,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/grids/fileio.py:docstring of PVGeo.grids.fileio.WriteImageDataToSurfer:1
 #: ../../PVGeo/PVGeo/gslib/gslib.py:docstring of PVGeo.gslib.gslib.WriteTableToGSLib:1
 #: ../../PVGeo/PVGeo/gslib/sgems.py:docstring of PVGeo.gslib.sgems.WriteImageDataToSGeMS:1
-msgid "Bases: :class:`PVGeo.base.WriterBase`"
+msgid "Bases: :py:class:`PVGeo.base.WriterBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/grids/fileio.py:docstring of PVGeo.grids.fileio.WriteCellCenterData:1
@@ -2552,7 +2552,7 @@ msgid "GSLib Point Set Reader"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/gslib/gslib.py:docstring of PVGeo.gslib.gslib.GSLibPointSetReader:1
-msgid "Bases: :class:`PVGeo.gslib.gslib._GSLibReaderMethods`, :class:`PVGeo.readers.delimited.DelimitedPointsReaderBase`"
+msgid "Bases: :py:class:`PVGeo.gslib.gslib._GSLibReaderMethods`, :py:class:`PVGeo.readers.delimited.DelimitedPointsReaderBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/gslib/gslib.py:docstring of PVGeo.gslib.gslib.GSLibPointSetReader:1
@@ -2564,7 +2564,7 @@ msgid "GSLib Table Reader"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/gslib/gslib.py:docstring of PVGeo.gslib.gslib.GSLibReader:1
-msgid "Bases: :class:`PVGeo.gslib.gslib._GSLibReaderMethods`, :class:`PVGeo.readers.delimited.DelimitedTextReader`"
+msgid "Bases: :py:class:`PVGeo.gslib.gslib._GSLibReaderMethods`, :py:class:`PVGeo.readers.delimited.DelimitedTextReader`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/gslib/gslib.py:docstring of PVGeo.gslib.gslib.GSLibReader:1
@@ -2600,7 +2600,7 @@ msgid "SGeMS Grid Reader"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/gslib/sgems.py:docstring of PVGeo.gslib.sgems.SGeMSGridReader:1
-msgid "Bases: :class:`PVGeo.gslib.gslib.GSLibReader`"
+msgid "Bases: :py:class:`PVGeo.gslib.gslib.GSLibReader`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/gslib/sgems.py:docstring of PVGeo.gslib.sgems.SGeMSGridReader:1
@@ -3028,7 +3028,7 @@ msgid "Madagascar SSRSF Reader"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/readers/binaries.py:docstring of PVGeo.readers.binaries.MadagascarReader:1
-msgid "Bases: :class:`PVGeo.readers.binaries.PackedBinariesReader`"
+msgid "Bases: :py:class:`PVGeo.readers.binaries.PackedBinariesReader`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/readers/binaries.py:docstring of PVGeo.readers.binaries.MadagascarReader:1
@@ -3212,7 +3212,7 @@ msgid "Discretize Mesh Reader"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/disc_meshes.py:docstring of PVGeo.ubc.disc_meshes.DiscretizeMeshReader:1
-msgid "Bases: :class:`PVGeo.base.InterfacedBaseReader`"
+msgid "Bases: :py:class:`PVGeo.base.InterfacedBaseReader`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/disc_meshes.py:docstring of PVGeo.ubc.disc_meshes.DiscretizeMeshReader:1
@@ -3264,7 +3264,7 @@ msgstr ""
 #: ../../PVGeo/PVGeo/ubc/general.py:docstring of PVGeo.ubc.general.GravObsReader:1
 #: ../../PVGeo/PVGeo/ubc/general.py:docstring of PVGeo.ubc.general.MagObsReader:1
 #: ../../PVGeo/PVGeo/ubc/general.py:docstring of PVGeo.ubc.general.TopoReader:1
-msgid "Bases: :class:`PVGeo.readers.delimited.DelimitedPointsReaderBase`"
+msgid "Bases: :py:class:`PVGeo.readers.delimited.DelimitedPointsReaderBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/general.py:docstring of PVGeo.ubc.general.GravGradReader:1
@@ -3329,7 +3329,7 @@ msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/octree.py:docstring of PVGeo.ubc.octree.OcTreeAppender:1
 #: ../../PVGeo/PVGeo/ubc/tensor.py:docstring of PVGeo.ubc.tensor.TensorMeshAppender:1
-msgid "Bases: :class:`PVGeo.ubc.two_file_base.ModelAppenderBase`"
+msgid "Bases: :py:class:`PVGeo.ubc.two_file_base.ModelAppenderBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/octree.py:docstring of PVGeo.ubc.octree.OcTreeAppender:1
@@ -3346,7 +3346,7 @@ msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/octree.py:docstring of PVGeo.ubc.octree.OcTreeReader:1
 #: ../../PVGeo/PVGeo/ubc/tensor.py:docstring of PVGeo.ubc.tensor.TensorMeshReader:1
-msgid "Bases: :class:`PVGeo.ubc.two_file_base.ubcMeshReaderBase`"
+msgid "Bases: :py:class:`PVGeo.ubc.two_file_base.ubcMeshReaderBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/octree.py:docstring of PVGeo.ubc.octree.OcTreeReader:1
@@ -3630,7 +3630,7 @@ msgid "UBC Mesh Reader Base"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/two_file_base.py:docstring of PVGeo.ubc.two_file_base.ubcMeshReaderBase:1
-msgid "Bases: :class:`PVGeo.base.TwoFileReaderBase`"
+msgid "Bases: :py:class:`PVGeo.base.TwoFileReaderBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/two_file_base.py:docstring of PVGeo.ubc.two_file_base.ubcMeshReaderBase:1
@@ -3679,7 +3679,7 @@ msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/write.py:docstring of PVGeo.ubc.write.WriteImageDataToUBC:1
 #: ../../PVGeo/PVGeo/ubc/write.py:docstring of PVGeo.ubc.write.WriteRectilinearGridToUBC:1
-msgid "Bases: :class:`PVGeo.ubc.write.ubcTensorMeshWriterBase`"
+msgid "Bases: :py:class:`PVGeo.ubc.write.ubcTensorMeshWriterBase`"
 msgstr ""
 
 #: ../../PVGeo/PVGeo/ubc/write.py:docstring of PVGeo.ubc.write.WriteImageDataToUBC:1
