@@ -1,13 +1,9 @@
 # PVGeo-doc on the Read The Docs.
 translated docs for PVGeo-doc official document
 
-:us:
-
-[![Documentation Status](https://readthedocs.org/projects/PVGeo-doc/badge/?version=latest)](https://PVGeo-doc.readthedocs.io/en/latest/?badge=latest)
-
 :jp:
 
-[![Documentation Status](https://readthedocs.org/projects/PVGeo-doc-ja/badge/?version=latest)](https://PVGeo-doc-ja.readthedocs.io/ja/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/pvgeo-doc-ja/badge/?version=latest)](https://pvgeo-doc-ja.readthedocs.io/ja/latest/?badge=latest)
 
 This is a project to provide PVGeo-doc official documentation with multiple versions and multiple languages on Read The Docs site.
 
@@ -68,29 +64,3 @@ After that, you should commit updated po files.
 5. add translation project to parent project like:
 
    https://readthedocs.org/dashboard/PVGeo-doc/translations/
-
-
-## How to add a new version
-
-1. add tag `1.7`
-
-   ```
-   git tag 1.7
-   ```
-
-2. replace old version `1_7` with `1_8` in:
-
-   - release.sh
-   - .travis.yml
-
-3. commit it and push them:
-
-   ```
-   git add release.sh .travis.yml
-   git commit -m "add new version: 1.8"
-   git push --tags
-   ```
-
-4. enable version 1.7 on RTD:
-
-   https://readthedocs.org/projects/PVGeo-doc/versions/
