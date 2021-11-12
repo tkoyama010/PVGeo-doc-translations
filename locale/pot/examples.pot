@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PVGeo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-12 00:43+0000\n"
+"POT-Creation-Date: 2021-11-12 13:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,7 +120,8 @@ msgid "Remember that in the script given above we shuffle the points to demonstr
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/add-cell-connectivity-to-points.rst:177
-msgid "**Total running time of the script:** ( 0 minutes  3.641 seconds)"
+#: ../../PVGeo/docs/source/examples/ubc/read-topo.rst:119
+msgid "**Total running time of the script:** ( 0 minutes  3.681 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/add-cell-connectivity-to-points.rst:192
@@ -182,7 +183,7 @@ msgid "Run the PVGeo algorithm"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/append-cell-centers.rst:141
-msgid "**Total running time of the script:** ( 0 minutes  0.999 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.905 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/append-cell-centers.rst:156
@@ -232,7 +233,7 @@ msgid "Use a custom math operation:"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/array-math.rst:215
-msgid "**Total running time of the script:** ( 0 minutes  0.632 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.621 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/array-math.rst:230
@@ -269,7 +270,7 @@ msgid "Create some input tables"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/combine-tables.rst:170
-msgid "**Total running time of the script:** ( 0 minutes  0.006 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.005 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/combine-tables.rst:185
@@ -306,7 +307,7 @@ msgid "Construct the filter"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/extract-array.rst:123
-msgid "**Total running time of the script:** ( 0 minutes  0.735 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.960 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/extract-array.rst:138
@@ -343,7 +344,7 @@ msgid "Apply the filter:"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/extract-points.rst:112
-msgid "**Total running time of the script:** ( 0 minutes  0.905 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.903 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/extract-points.rst:127
@@ -392,7 +393,7 @@ msgid "Now we can use the **Many Slices Along Points** filter. Specify the model
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/many-slices-along-points.rst:213
-msgid "**Total running time of the script:** ( 0 minutes  3.536 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  3.160 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/many-slices-along-points.rst:228
@@ -429,7 +430,7 @@ msgid "Create some input data. this can be any `vtkDataObject`"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/normalize-array.rst:149
-msgid "**Total running time of the script:** ( 0 minutes  0.832 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.793 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/normalize-array.rst:164
@@ -458,7 +459,7 @@ msgid "Takes points from a `vtkPolyData` object and constructs a line of those p
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/points-to-tube.rst:120
-msgid "**Total running time of the script:** ( 0 minutes  0.673 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.632 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/points-to-tube.rst:135
@@ -503,7 +504,7 @@ msgid "Check the output"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/reshape-table.rst:133
-msgid "**Total running time of the script:** ( 0 minutes  0.005 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.004 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/reshape-table.rst:148
@@ -536,7 +537,7 @@ msgid "Get :class:`pyvista.PolyData` sample input to rotate"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/rotate-points.rst:110
-msgid "**Total running time of the script:** ( 0 minutes  0.650 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.605 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/rotate-points.rst:125
@@ -555,7 +556,7 @@ msgid "Computation times"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:8
-msgid "**00:25.922** total execution time for **examples_filters-general** files:"
+msgid "**00:25.052** total execution time for **examples_filters-general** files:"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:11
@@ -563,7 +564,7 @@ msgid ":ref:`sphx_glr_examples_filters-general_voxelize-points.py` (``voxelize-p
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:11
-msgid "00:13.309"
+msgid "00:12.782"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:11
@@ -595,7 +596,8 @@ msgid ":ref:`sphx_glr_examples_filters-general_add-cell-connectivity-to-points.p
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:13
-msgid "00:03.641"
+#: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:13
+msgid "00:03.681"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:15
@@ -603,19 +605,19 @@ msgid ":ref:`sphx_glr_examples_filters-general_many-slices-along-points.py` (``m
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:15
-msgid "00:03.536"
+msgid "00:03.160"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:17
-msgid ":ref:`sphx_glr_examples_filters-general_append-cell-centers.py` (``append-cell-centers.py``)"
+msgid ":ref:`sphx_glr_examples_filters-general_extract-array.py` (``extract-array.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:17
-msgid "00:00.999"
+msgid "00:00.960"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:19
-msgid ":ref:`sphx_glr_examples_filters-general_extract-points.py` (``extract-points.py``)"
+msgid ":ref:`sphx_glr_examples_filters-general_append-cell-centers.py` (``append-cell-centers.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:19
@@ -623,19 +625,19 @@ msgid "00:00.905"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:21
-msgid ":ref:`sphx_glr_examples_filters-general_normalize-array.py` (``normalize-array.py``)"
+msgid ":ref:`sphx_glr_examples_filters-general_extract-points.py` (``extract-points.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:21
-msgid "00:00.832"
+msgid "00:00.903"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:23
-msgid ":ref:`sphx_glr_examples_filters-general_extract-array.py` (``extract-array.py``)"
+msgid ":ref:`sphx_glr_examples_filters-general_normalize-array.py` (``normalize-array.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:23
-msgid "00:00.735"
+msgid "00:00.793"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:25
@@ -643,23 +645,23 @@ msgid ":ref:`sphx_glr_examples_filters-general_points-to-tube.py` (``points-to-t
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:25
-msgid "00:00.673"
+msgid "00:00.632"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:27
-msgid ":ref:`sphx_glr_examples_filters-general_rotate-points.py` (``rotate-points.py``)"
-msgstr ""
-
-#: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:27
-msgid "00:00.650"
-msgstr ""
-
-#: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:29
 msgid ":ref:`sphx_glr_examples_filters-general_array-math.py` (``array-math.py``)"
 msgstr ""
 
+#: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:27
+msgid "00:00.621"
+msgstr ""
+
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:29
-msgid "00:00.632"
+msgid ":ref:`sphx_glr_examples_filters-general_rotate-points.py` (``rotate-points.py``)"
+msgstr ""
+
+#: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:29
+msgid "00:00.605"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:31
@@ -667,7 +669,7 @@ msgid ":ref:`sphx_glr_examples_filters-general_combine-tables.py` (``combine-tab
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:31
-msgid "00:00.006"
+msgid "00:00.005"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:33
@@ -675,7 +677,7 @@ msgid ":ref:`sphx_glr_examples_filters-general_reshape-table.py` (``reshape-tabl
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/sg_execution_times.rst:33
-msgid "00:00.005"
+msgid "00:00.004"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/voxelize-points.rst:13
@@ -751,7 +753,7 @@ msgid "Now display the slices and clipped volume"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/voxelize-points.rst:356
-msgid "**Total running time of the script:** ( 0 minutes  13.309 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  12.782 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/filters-general/voxelize-points.rst:371
@@ -836,7 +838,7 @@ msgid "Note that there are other extraction operations like an ``'intersection'`
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/extract-topography.rst:332
-msgid "**Total running time of the script:** ( 0 minutes  8.056 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  7.877 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/extract-topography.rst:347
@@ -870,7 +872,7 @@ msgid "Apply a filter to the DEM to have realistic topography"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/read-esri.rst:94
-msgid "**Total running time of the script:** ( 0 minutes  10.459 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  9.619 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/read-esri.rst:109
@@ -899,7 +901,7 @@ msgid "Download a sample Surfer grid file"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/read-surfer.rst:96
-msgid "**Total running time of the script:** ( 0 minutes  1.365 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  1.349 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/read-surfer.rst:111
@@ -911,7 +913,7 @@ msgid ":download:`Download Jupyter notebook: read-surfer.ipynb <read-surfer.ipyn
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/sg_execution_times.rst:8
-msgid "**00:19.880** total execution time for **examples_grids** files:"
+msgid "**00:18.844** total execution time for **examples_grids** files:"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/sg_execution_times.rst:11
@@ -919,7 +921,7 @@ msgid ":ref:`sphx_glr_examples_grids_read-esri.py` (``read-esri.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/sg_execution_times.rst:11
-msgid "00:10.459"
+msgid "00:09.619"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/sg_execution_times.rst:13
@@ -927,7 +929,7 @@ msgid ":ref:`sphx_glr_examples_grids_extract-topography.py` (``extract-topograph
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/sg_execution_times.rst:13
-msgid "00:08.056"
+msgid "00:07.877"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/sg_execution_times.rst:15
@@ -935,7 +937,7 @@ msgid ":ref:`sphx_glr_examples_grids_read-surfer.py` (``read-surfer.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/grids/sg_execution_times.rst:15
-msgid "00:01.365"
+msgid "00:01.349"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/read-point-set.rst:13
@@ -952,7 +954,7 @@ msgid "Read GSLib point set file"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/read-point-set.rst:104
-msgid "**Total running time of the script:** ( 0 minutes  0.656 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.645 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/read-point-set.rst:119
@@ -977,7 +979,7 @@ msgid "Read SGeMS Grid file formats."
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/read-sgems-grid.rst:236
-msgid "**Total running time of the script:** ( 0 minutes  48.110 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  45.581 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/read-sgems-grid.rst:251
@@ -1006,7 +1008,7 @@ msgid "From inspecting the header, we realize that this dataset os gridded, so l
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/read-table.rst:169
-msgid "**Total running time of the script:** ( 0 minutes  16.641 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  14.725 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/read-table.rst:184
@@ -1018,7 +1020,7 @@ msgid ":download:`Download Jupyter notebook: read-table.ipynb <read-table.ipynb>
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/sg_execution_times.rst:8
-msgid "**01:05.408** total execution time for **examples_gslib** files:"
+msgid "**01:00.951** total execution time for **examples_gslib** files:"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/sg_execution_times.rst:11
@@ -1026,7 +1028,7 @@ msgid ":ref:`sphx_glr_examples_gslib_read-sgems-grid.py` (``read-sgems-grid.py``
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/sg_execution_times.rst:11
-msgid "00:48.110"
+msgid "00:45.581"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/sg_execution_times.rst:13
@@ -1034,7 +1036,7 @@ msgid ":ref:`sphx_glr_examples_gslib_read-table.py` (``read-table.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/sg_execution_times.rst:13
-msgid "00:16.641"
+msgid "00:14.725"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/sg_execution_times.rst:15
@@ -1042,7 +1044,7 @@ msgid ":ref:`sphx_glr_examples_gslib_read-point-set.py` (``read-point-set.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/gslib/sg_execution_times.rst:15
-msgid "00:00.656"
+msgid "00:00.645"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/index.rst:10
@@ -1181,7 +1183,7 @@ msgid "Read a UBC gravity observations file"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/read-grv-obs.rst:119
-msgid "**Total running time of the script:** ( 0 minutes  0.791 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  0.740 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/read-grv-obs.rst:134
@@ -1217,7 +1219,7 @@ msgid "Or threshold a data range"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/read-tensor-mesh.rst:199
-msgid "**Total running time of the script:** ( 0 minutes  3.943 seconds)"
+msgid "**Total running time of the script:** ( 0 minutes  3.796 seconds)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/read-tensor-mesh.rst:214
@@ -1236,10 +1238,6 @@ msgstr ""
 msgid "Read a UBC topography file"
 msgstr ""
 
-#: ../../PVGeo/docs/source/examples/ubc/read-topo.rst:119
-msgid "**Total running time of the script:** ( 0 minutes  4.081 seconds)"
-msgstr ""
-
 #: ../../PVGeo/docs/source/examples/ubc/read-topo.rst:134
 msgid ":download:`Download Python source code: read-topo.py <read-topo.py>`"
 msgstr ""
@@ -1249,23 +1247,19 @@ msgid ":download:`Download Jupyter notebook: read-topo.ipynb <read-topo.ipynb>`"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:8
-msgid "**00:08.815** total execution time for **examples_ubc** files:"
+msgid "**00:08.218** total execution time for **examples_ubc** files:"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:11
-msgid ":ref:`sphx_glr_examples_ubc_read-topo.py` (``read-topo.py``)"
-msgstr ""
-
-#: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:11
-msgid "00:04.081"
-msgstr ""
-
-#: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:13
 msgid ":ref:`sphx_glr_examples_ubc_read-tensor-mesh.py` (``read-tensor-mesh.py``)"
 msgstr ""
 
+#: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:11
+msgid "00:03.796"
+msgstr ""
+
 #: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:13
-msgid "00:03.943"
+msgid ":ref:`sphx_glr_examples_ubc_read-topo.py` (``read-topo.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:15
@@ -1273,5 +1267,5 @@ msgid ":ref:`sphx_glr_examples_ubc_read-grv-obs.py` (``read-grv-obs.py``)"
 msgstr ""
 
 #: ../../PVGeo/docs/source/examples/ubc/sg_execution_times.rst:15
-msgid "00:00.791"
+msgid "00:00.740"
 msgstr ""
