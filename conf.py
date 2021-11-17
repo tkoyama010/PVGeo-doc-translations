@@ -11,6 +11,7 @@ import os
 import shutil
 import sys
 
+import mock
 from sphinx.util.pycompat import execfile_
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "./PVGeo/docs/source"))
@@ -26,21 +27,17 @@ shutil.rmtree("PVGeo/docs/source/index.rst", ignore_errors=True)
 shutil.copytree("locale/examples", "PVGeo/docs/examples")
 shutil.copyfile("locale/index.rst", "PVGeo/docs/source/index.rst")
 
-basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "PVGeo/docs/source")
-
+absdir = os.path.dirname(os.path.abspath(__file__))
+basedir = os.path.join(absdir, "PVGeo/docs/source")
 execfile_(os.path.join(basedir, "conf.py"), globals())
-
-
 
 locale_dirs = [os.path.join(basedir, "../../../locale/")]
 
 # Mock the paraview module to build pvmacros docs
-import mock
-
-MOCK_MODULES = ['paraview', 'paraview.simple', 'discretize', 'pyproj']
+MOCK_MODULES = ["paraview", "paraview.simple", "discretize", "pyproj"]
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = mock.Mock()
-autodoc_mock_imports = ['paraview', "vtk"]
+autodoc_mock_imports = ["paraview", "vtk"]
 
 sphinx_gallery_conf = {
     "plot_gallery": "False",
@@ -52,7 +49,6 @@ html_static_path = [os.path.join(basedir, "_static")]
 
 def setup(app):
     from sphinx.ext.autodoc import cut_lines
-    from sphinx.util.docfields import GroupedField
 
     app.srcdir = basedir
     app.confdir = app.srcdir
@@ -62,9 +58,6 @@ def setup(app):
         "confval",
         objname="configuration value",
         indextemplate="pair: %s; configuration value",
-    )
-    fdesc = GroupedField(
-        "parameter", label="Parameters", names=["param"], can_collapse=True
     )
 
     # workaround for RTD
