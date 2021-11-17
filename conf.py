@@ -49,7 +49,6 @@ html_static_path = [os.path.join(basedir, "_static")]
 
 def setup(app):
     from sphinx.ext.autodoc import cut_lines
-    from sphinx.util.docfields import GroupedField
 
     app.srcdir = basedir
     app.confdir = app.srcdir
@@ -59,9 +58,6 @@ def setup(app):
         "confval",
         objname="configuration value",
         indextemplate="pair: %s; configuration value",
-    )
-    fdesc = GroupedField(
-        "parameter", label="Parameters", names=["param"], can_collapse=True
     )
 
     # workaround for RTD
