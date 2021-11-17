@@ -11,6 +11,7 @@ import os
 import shutil
 import sys
 
+import mock
 from sphinx.util.pycompat import execfile_
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "./PVGeo/docs/source"))
@@ -33,8 +34,6 @@ execfile_(os.path.join(basedir, "conf.py"), globals())
 locale_dirs = [os.path.join(basedir, "../../../locale/")]
 
 # Mock the paraview module to build pvmacros docs
-import mock
-
 MOCK_MODULES = ['paraview', 'paraview.simple', 'discretize', 'pyproj']
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = mock.Mock()
