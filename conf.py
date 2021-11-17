@@ -26,11 +26,9 @@ shutil.rmtree("PVGeo/docs/source/index.rst", ignore_errors=True)
 shutil.copytree("locale/examples", "PVGeo/docs/examples")
 shutil.copyfile("locale/index.rst", "PVGeo/docs/source/index.rst")
 
-basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "PVGeo/docs/source")
-
+absdir = os.path.dirname(os.path.abspath(__file__))
+basedir = os.path.join(absdir, "PVGeo/docs/source")
 execfile_(os.path.join(basedir, "conf.py"), globals())
-
-
 
 locale_dirs = [os.path.join(basedir, "../../../locale/")]
 
