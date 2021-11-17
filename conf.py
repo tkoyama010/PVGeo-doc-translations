@@ -34,10 +34,10 @@ execfile_(os.path.join(basedir, "conf.py"), globals())
 locale_dirs = [os.path.join(basedir, "../../../locale/")]
 
 # Mock the paraview module to build pvmacros docs
-MOCK_MODULES = ['paraview', 'paraview.simple', 'discretize', 'pyproj']
+MOCK_MODULES = ["paraview", "paraview.simple", "discretize", "pyproj"]
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = mock.Mock()
-autodoc_mock_imports = ['paraview', "vtk"]
+autodoc_mock_imports = ["paraview", "vtk"]
 
 sphinx_gallery_conf = {
     "plot_gallery": "False",
