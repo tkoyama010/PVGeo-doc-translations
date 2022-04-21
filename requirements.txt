@@ -15,7 +15,7 @@ pyproj==3.3.0
 omf==1.0.1
 omfvista==0.2.4
 espatools==0.1.1
-discretize==0.7.3
+discretize==0.7.4
 # For building the documentation:
 gendocs==0.4.0
 Sphinx==4.5.0
