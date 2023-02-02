@@ -2,7 +2,7 @@
 sphinx-intl==2.0.1
 transifex-client==0.14.4
 vtk==9.1.0
-pyvista==0.34.0
+pyvista==0.38.0
 numpy==1.22.3
 scipy==1.8.0
 colour-runner==0.1.1
